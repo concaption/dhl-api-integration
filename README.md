@@ -13,12 +13,7 @@ The scope of the project was to automatically get Rates from the DHL API and upd
 The project was developed in Python 3.8.5 and the libraries used are listed in the requirements.txt file.
 
 ```
-python -m venv .venv
-source .venv/bin/activate
-```
-
-```
-make install
+make setup
 ```
 
 ```
