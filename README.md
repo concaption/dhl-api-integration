@@ -15,14 +15,3 @@ The project was developed in Python 3.8.5 and the libraries used are listed in t
 ```
 make setup
 ```
-
-```
-nano ~/.bashrc
-source .venv/bin/activate
-
-```
-
-```
-chmod +x main.py
-./main.py
-```

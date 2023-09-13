@@ -76,7 +76,7 @@ def add_items_dhl():
     sheet_id = "1Your sheet id"
     sheets = Sheets()
     drive = Drive()
-    dhl_client = DHLDPI(auth_token="SUFPNjFNT3VaRWhmdTY4YU1EWVhTR0cwd3ZkWWZEWmU6QlRuUnJCR0c1M0VGN0QwVQ==")
+    dhl_client = DHLDPI()
     print("Getting Orders data from sheet")
     orders = sheets.get_spreadsheet(sheet_id, range='A2:AI')
     print("orders")
