@@ -17,12 +17,6 @@ make setup
 ```
 
 ```
-git add .
-git commit -m "Initial Commit"
-git push
-```
-
-```
 nano ~/.bashrc
 source .venv/bin/activate
 
